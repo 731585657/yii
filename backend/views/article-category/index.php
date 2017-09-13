@@ -16,8 +16,8 @@
         <th>状态</th>
         <th>操作</th>
     </tr>
-    <?php foreach ($models as $model): //var_dump($models);exit; ?>
-        <tr>
+    <?php foreach ($models as $model): ?>
+        <tr data-id="<?=$model->id?>">
             <td><?=$model->id?></td>
             <td><?=$model->name?></td>
             <td><?=$model->intro?></td>
@@ -25,12 +25,37 @@
             <td><?=$model->status?></td>
             <td>
                 <a href="<?=\yii\helpers\Url::to(['article-category/edit','id'=>$model->id]) ?>" class="btn btn-primary">修改</a>
-                <a href="<?=\yii\helpers\Url::to(['article-category/del','id'=>$model->id]) ?>" class="btn btn-primary">删除</a>
+                <a href="javascript:;" class="btn btn-primary del_btn">删除</a>
             </td>
         </tr>
     <?php endforeach; ?>
 </table>
 <?php
+//定义连接地址
+$del_url=\yii\helpers\Url::to(['article-category/del']);
+$js=<<<JS
+      $('.del_btn').click(function(){
+         if(confirm('确定删除吗')){
+             var tr=$(this).closest('tr');
+             var id=tr.attr('data-id');
+             //console.debug(id);
+           $.post('{$del_url}',{id:id},function(data) {
+              //console.debug(data);
+             if(data == 'success'){
+                 alert('删除成功');
+                 tr.hide('slow');
+             }else {
+                 alert('删除失败');
+             }
+           })
+         }
+         
+      });
+
+JS;
+$this->registerJs($js);
+
+
 echo \yii\widgets\LinkPager::widget([
     'pagination'=>$requy,
 ]);

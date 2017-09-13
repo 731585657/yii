@@ -9,7 +9,7 @@ namespace backend\models;
 use yii\db\ActiveRecord;
 
 class Brand extends  ActiveRecord{
-    public $file;
+   // publiC $file;
     public function attributeLabels(){
         return [
             'name'=>'品牌名',
@@ -25,7 +25,8 @@ class Brand extends  ActiveRecord{
         //name  author_id  is_on_sale  intro       price  sn    logo
         return [
             [['name','intro','status','sort'],'required'],
-            ['file','file','extensions'=>['jpg','png','gif']],
+            ['logo','string','max'=>200],
+            //['file','file','extensions'=>['jpg','png','gif']],
         ];
     }
 }

@@ -2,41 +2,45 @@
 /**
  * Created by PhpStorm.
  * User: asus
- * Date: 2017/9/7
- * Time: 15:39
+ * Date: 2017/9/8
+ * Time: 15:47
  */
 ?>
-<a href="<?=\yii\helpers\Url::to(['brand/add'])?>" class="btn btn-primary">添加</a>
+<a href="<?=\yii\helpers\Url::to(['article/add'])?>" class="btn btn-primary">添加</a>
 <table class="table table-bordered table-responsive">
     <tr>
         <th>ID</th>
-        <th>品牌名</th>
+        <th>文章名称</th>
+        <th>文章分类</th>
         <th>简介</th>
-        <th>Logo</th>
         <th>排序</th>
-        <th>显示</th>
+        <th>状态</th>
+        <th>发布时间</th>
         <th>操作</th>
     </tr>
     <?php foreach ($models as $model): ?>
-    <tr data-id="<?=$model->id?>">
+    <tr data-id="<?=$model->id?> " >
         <td><?=$model->id?></td>
         <td><?=$model->name?></td>
+        <td><?=$model->articleCategory->name?></td>
         <td><?=$model->intro?></td>
-        <td><img src="<?= $model->logo?>" class="img-circle" height="100" width="100"></td>
         <td><?=$model->sort?></td>
-        <td><?=$model->status?></td>
+        <td><?=$model->status==2 ? "上架":'下架'?></td>
+        <td><?=date('Y-m-d H:i:s',$model->create_time)?></td>
         <td>
-            <a href="<?=\yii\helpers\Url::to(['brand/edit','id'=>$model->id]) ?>" class="btn btn-primary">修改</a>
+            <a href="<?=\yii\helpers\Url::to(['article/show','id'=>$model->id])?>" class="btn btn-primary">查看详情</a>
+            <a href="<?=\yii\helpers\Url::to(['article/edit','id'=>$model->id])?>" class="btn btn-primary">修改</a>
             <a href="javascript:;" class="btn btn-primary del_btn">删除</a>
         </td>
     </tr>
-    <?php endforeach; ?>
-    </table>
 
-
+    <?php endforeach;?>
+</table>
 <?php
-//定义连接地址
-$del_url=\yii\helpers\Url::to(['brand/del']);
+/**
+ * @var \yii\web\View
+ */
+$del_url=\yii\helpers\Url::to(['article/del']);
 $js=<<<JS
       $('.del_btn').click(function(){
          if(confirm('确定删除吗')){
@@ -44,8 +48,9 @@ $js=<<<JS
              var id=tr.attr('data-id');
              //console.debug(id);
            $.post('{$del_url}',{id:id},function(data) {
-              //console.debug(data);exit;
+              //console.debug(data);
              if(data == 'success'){
+                
                  alert('删除成功');
                  tr.hide('slow');
              }else {
@@ -61,8 +66,8 @@ $js=<<<JS
 JS;
 $this->registerJs($js);
 
+
+
 echo \yii\widgets\LinkPager::widget([
-    'pagination'=>$pager,
-
-
+    'pagination'=>$requy,
 ]);
