@@ -1,0 +1,281 @@
+a:12:{s:6:"config";s:1842:"a:5:{s:10:"phpVersion";s:6:"5.6.27";s:10:"yiiVersion";s:6:"2.0.12";s:11:"application";a:8:{s:3:"yii";s:6:"2.0.12";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:6:"5.6.27";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:7:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:55:"D:\phpStudy\WWW\yiishop\vendor/yiisoft/yii2-swiftmailer";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:53:"D:\phpStudy\WWW\yiishop\vendor/yiisoft/yii2-bootstrap";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:47:"D:\phpStudy\WWW\yiishop\vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:49:"D:\phpStudy\WWW\yiishop\vendor/yiisoft/yii2-faker";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.0.11.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:49:"D:\phpStudy\WWW\yiishop\vendor/yiisoft/yii2-debug";}}s:19:"flyok666/yii2-qiniu";a:3:{s:4:"name";s:19:"flyok666/yii2-qiniu";s:7:"version";s:7:"1.0.2.0";s:5:"alias";a:1:{s:15:"@flyok666/qiniu";s:50:"D:\phpStudy\WWW\yiishop\vendor/flyok666/yii2-qiniu";}}s:26:"creocoder/yii2-nested-sets";a:3:{s:4:"name";s:26:"creocoder/yii2-nested-sets";s:7:"version";s:7:"0.9.0.0";s:5:"alias";a:1:{s:21:"@creocoder/nestedsets";s:61:"D:\phpStudy\WWW\yiishop\vendor/creocoder/yii2-nested-sets/src";}}}}";s:7:"request";s:4509:"a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:10:{s:6:"cookie";s:285:"_csrf-frontend=edc3f71aa693a04557852e7233dac84e5aeaf5638a332e8d3fbfbd754f80ad5aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%89%CD%B70%C7%A8%EF%B4%9B%A6%93EMP7%0F%AF+%A4%0F%DE%C1%2Fq%AD%D74%04%1F%D5%3D%E2%22%3B%7D; advanced-frontend=jvjt63lg3555nuqpvbfenttr65";s:15:"accept-language";s:14:"zh-CN,zh;q=0.8";s:15:"accept-encoding";s:13:"gzip, deflate";s:7:"referer";s:34:"http://www.yiishop.com/member/cart";s:6:"accept";s:85:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8";s:10:"user-agent";s:110:"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36";s:25:"upgrade-insecure-requests";s:1:"1";s:13:"cache-control";s:9:"max-age=0";s:10:"connection";s:5:"close";s:4:"host";s:15:"www.yiishop.com";}s:15:"responseHeaders";a:5:{s:12:"X-Powered-By";s:10:"PHP/5.6.27";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:62:"no-store, no-cache, must-revalidate, post-check=0, pre-check=0";s:6:"Pragma";s:8:"no-cache";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";}s:5:"route";s:11:"order/order";s:6:"action";s:51:"frontend\controllers\OrderController::actionOrder()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:0:{}s:6:"SERVER";a:44:{s:4:"PATH";s:390:"D:\phpStudy\php\php-5.6.27-nts;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\server\mysql\bin;D:\APP\svn\bin;D:\APP\TortoiseSVN\bin;D:\Program Files\Git\cmd;D:\Program Files\TortoiseGit\bin;D:\phpStudy\php\php-5.6.27-nts;C:\ProgramData\ComposerSetup\bin;C:\Users\asus\AppData\Local\Microsoft\WindowsApps;C:\Users\asus\AppData\Roaming\Composer\vendor\bin";s:10:"SYSTEMROOT";s:10:"C:\Windows";s:7:"COMSPEC";s:27:"C:\Windows\system32\cmd.exe";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:6:"WINDIR";s:10:"C:\Windows";s:21:"PHP_FCGI_MAX_REQUESTS";s:4:"1000";s:5:"PHPRC";s:31:"D:/phpStudy/php/php-5.6.27-nts/";s:21:"_FCGI_SHUTDOWN_EVENT_";s:3:"720";s:11:"SCRIPT_NAME";s:10:"/index.php";s:11:"REQUEST_URI";s:12:"/order/order";s:12:"QUERY_STRING";s:0:"";s:14:"REQUEST_METHOD";s:3:"GET";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:12:"REDIRECT_URL";s:12:"/order/order";s:11:"REMOTE_PORT";s:5:"62293";s:15:"SCRIPT_FILENAME";s:46:"D:/phpStudy/WWW/yiishop/frontend/web/index.php";s:12:"SERVER_ADMIN";s:18:"admin@phpStudy.net";s:21:"CONTEXT_DOCUMENT_ROOT";s:36:"D:/phpStudy/WWW/yiishop/frontend/web";s:14:"CONTEXT_PREFIX";s:0:"";s:14:"REQUEST_SCHEME";s:4:"http";s:13:"DOCUMENT_ROOT";s:36:"D:/phpStudy/WWW/yiishop/frontend/web";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_NAME";s:15:"www.yiishop.com";s:15:"SERVER_SOFTWARE";s:52:"Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9";s:16:"SERVER_SIGNATURE";s:0:"";s:10:"SystemRoot";s:10:"C:\Windows";s:11:"HTTP_COOKIE";s:285:"_csrf-frontend=edc3f71aa693a04557852e7233dac84e5aeaf5638a332e8d3fbfbd754f80ad5aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%89%CD%B70%C7%A8%EF%B4%9B%A6%93EMP7%0F%AF+%A4%0F%DE%C1%2Fq%AD%D74%04%1F%D5%3D%E2%22%3B%7D; advanced-frontend=jvjt63lg3555nuqpvbfenttr65";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"zh-CN,zh;q=0.8";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:12:"HTTP_REFERER";s:34:"http://www.yiishop.com/member/cart";s:11:"HTTP_ACCEPT";s:85:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8";s:15:"HTTP_USER_AGENT";s:110:"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:15:"HTTP_CONNECTION";s:5:"close";s:9:"HTTP_HOST";s:15:"www.yiishop.com";s:15:"REDIRECT_STATUS";s:3:"200";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:8:"PHP_SELF";s:10:"/index.php";s:18:"REQUEST_TIME_FLOAT";d:1506221797.390672;s:12:"REQUEST_TIME";i:1506221797;}s:3:"GET";a:0:{}s:4:"POST";a:0:{}s:6:"COOKIE";a:2:{s:14:"_csrf-frontend";s:140:"edc3f71aa693a04557852e7233dac84e5aeaf5638a332e8d3fbfbd754f80ad5aa:2:{i:0;s:14:"_csrf-frontend";i:1;s:32:"�ͷ0Ǩﴛ��EMP7� ���/q��4�=�";}";s:17:"advanced-frontend";s:26:"jvjt63lg3555nuqpvbfenttr65";}s:5:"FILES";a:0:{}s:7:"SESSION";a:4:{s:7:"__flash";a:0:{}s:22:"__captcha/site/captcha";s:3:"qou";s:27:"__captcha/site/captchacount";i:1;s:4:"__id";i:22;}}";s:3:"log";s:9538:"a:1:{s:8:"messages";a:26:{i:0;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1506221797.6230321;i:4;a:0:{}i:5;i:2245408;}i:1;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1506221797.6231239;i:4;a:0:{}i:5;i:2247272;}i:2;a:6:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1506221797.7267599;i:4;a:0:{}i:5;i:3121816;}i:3;a:6:{i:0;s:36:"SELECT * FROM `member` WHERE `id`=22";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506221797.7820821;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3908528;}i:4;a:6:{i:0;s:58:"Opening DB connection: mysql:host=localhost;dbname=yiishop";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1506221797.78228;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3913416;}i:9;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `member`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.794821;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3943112;}i:12;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'member' AND kcu.table_name = 'member'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.815891;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3971776;}i:15;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1506221798.874043;i:4;a:0:{}i:5;i:4301376;}i:16;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1506221798.89135;i:4;a:0:{}i:5;i:4473080;}i:17;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1506221798.8953221;i:4;a:0:{}i:5;i:4506000;}i:24;a:6:{i:0;s:30:"Route requested: 'order/order'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1506221798.904968;i:4;a:0:{}i:5;i:4630792;}i:25;a:6:{i:0;s:25:"Route to run: order/order";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1506221798.918334;i:4;a:0:{}i:5;i:4726888;}i:26;a:6:{i:0;s:67:"Running action: frontend\controllers\OrderController::actionOrder()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1506221798.9218421;i:4;a:0:{}i:5;i:4737184;}i:27;a:6:{i:0;s:50:"SELECT `goods_id` FROM `cart` WHERE `member_id`=22";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9282179;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:18;s:8:"function";s:6:"column";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}i:5;i:4820368;}i:30;a:6:{i:0;s:41:"SELECT * FROM `cart` WHERE `member_id`=22";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9294209;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4825632;}i:33;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `cart`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9302051;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4837448;}i:36;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'cart' AND kcu.table_name = 'cart'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9457631;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4846968;}i:39;a:6:{i:0;s:51:"SELECT SUM(amount) FROM `cart` WHERE `member_id`=22";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9485259;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:28;s:8:"function";s:3:"sum";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}i:5;i:4846376;}i:42;a:6:{i:0;s:48:"SELECT * FROM `goods` WHERE `id` IN ('33', '37')";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9524939;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4888328;}i:45;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `goods`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9539289;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4902032;}i:48;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'goods' AND kcu.table_name = 'goods'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9712591;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4917272;}i:51;a:6:{i:0;s:44:"SELECT * FROM `address` WHERE `member_id`=22";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9841239;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5016720;}i:54;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `address`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9852741;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5031200;}i:57;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'address' AND kcu.table_name = 'address'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506221799.0020571;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5044104;}i:60;a:6:{i:0;s:17:"Begin transaction";i:1;i:8;i:2;s:25:"yii\db\Transaction::begin";i:3;d:1506221799.008559;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:39;s:8:"function";s:16:"beginTransaction";s:5:"class";s:17:"yii\db\Connection";s:4:"type";s:2:"->";}}i:5;i:5059688;}i:61;a:6:{i:0;s:78:"Rendering view file: D:\phpStudy\WWW\yiishop\frontend\views\order\addorder.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1506221799.021065;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:110;s:8:"function";s:13:"renderPartial";s:5:"class";s:19:"yii\base\Controller";s:4:"type";s:2:"->";}}i:5;i:5161960;}}}";s:9:"profiling";s:14897:"a:3:{s:6:"memory";i:5325448;s:4:"time";d:1.619488000869751;s:8:"messages";a:30:{i:5;a:6:{i:0;s:58:"Opening DB connection: mysql:host=localhost;dbname=yiishop";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1506221797.782408;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3914896;}i:6;a:6:{i:0;s:58:"Opening DB connection: mysql:host=localhost;dbname=yiishop";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1506221798.7902589;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3923464;}i:7;a:6:{i:0;s:36:"SELECT * FROM `member` WHERE `id`=22";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.7904601;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3922152;}i:8;a:6:{i:0;s:36:"SELECT * FROM `member` WHERE `id`=22";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.7912049;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3925672;}i:10;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `member`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.7950599;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3944288;}i:11;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `member`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.811166;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3958880;}i:13;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'member' AND kcu.table_name = 'member'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.8161161;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3974024;}i:14;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'member' AND kcu.table_name = 'member'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.8183081;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3975760;}i:28;a:6:{i:0;s:50:"SELECT `goods_id` FROM `cart` WHERE `member_id`=22";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9283299;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:18;s:8:"function";s:6:"column";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}i:5;i:4821568;}i:29;a:6:{i:0;s:50:"SELECT `goods_id` FROM `cart` WHERE `member_id`=22";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.928973;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:18;s:8:"function";s:6:"column";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}i:5;i:4823392;}i:31;a:6:{i:0;s:41:"SELECT * FROM `cart` WHERE `member_id`=22";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.929523;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4826824;}i:32;a:6:{i:0;s:41:"SELECT * FROM `cart` WHERE `member_id`=22";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9299901;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4829736;}i:34;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `cart`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.930325;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4838656;}i:35;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `cart`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9451039;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4845152;}i:37;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'cart' AND kcu.table_name = 'cart'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.945878;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4849232;}i:38;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'cart' AND kcu.table_name = 'cart'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9479711;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4850984;}i:40;a:6:{i:0;s:51:"SELECT SUM(amount) FROM `cart` WHERE `member_id`=22";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9486239;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:28;s:8:"function";s:3:"sum";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}i:5;i:4847576;}i:41;a:6:{i:0;s:51:"SELECT SUM(amount) FROM `cart` WHERE `member_id`=22";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9491241;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:28;s:8:"function";s:3:"sum";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}i:5;i:4849128;}i:43;a:6:{i:0;s:48:"SELECT * FROM `goods` WHERE `id` IN ('33', '37')";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9526229;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4889440;}i:44;a:6:{i:0;s:48:"SELECT * FROM `goods` WHERE `id` IN ('33', '37')";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9536819;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4895168;}i:46;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `goods`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9540479;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4903240;}i:47;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `goods`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9698081;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4921224;}i:49;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'goods' AND kcu.table_name = 'goods'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9714749;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4919544;}i:50;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'goods' AND kcu.table_name = 'goods'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9736309;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4921288;}i:52;a:6:{i:0;s:44:"SELECT * FROM `address` WHERE `member_id`=22";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.984246;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5017912;}i:53;a:6:{i:0;s:44:"SELECT * FROM `address` WHERE `member_id`=22";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9849861;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5023704;}i:55;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `address`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9853909;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5032424;}i:56;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `address`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221799.0009561;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5045936;}i:58;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'address' AND kcu.table_name = 'address'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221799.0021861;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5046368;}i:59;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'address' AND kcu.table_name = 'address'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221799.0044191;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5048120;}}}";s:2:"db";s:14122:"a:1:{s:8:"messages";a:28:{i:7;a:6:{i:0;s:36:"SELECT * FROM `member` WHERE `id`=22";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.7904601;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3922152;}i:8;a:6:{i:0;s:36:"SELECT * FROM `member` WHERE `id`=22";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.7912049;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3925672;}i:10;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `member`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.7950599;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3944288;}i:11;a:6:{i:0;s:31:"SHOW FULL COLUMNS FROM `member`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.811166;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3958880;}i:13;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'member' AND kcu.table_name = 'member'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.8161161;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3974024;}i:14;a:6:{i:0;s:599:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'member' AND kcu.table_name = 'member'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.8183081;i:4;a:1:{i:0;a:5:{s:4:"file";s:50:"D:\phpStudy\WWW\yiishop\frontend\models\Member.php";s:4:"line";i:114;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}i:5;i:3975760;}i:28;a:6:{i:0;s:50:"SELECT `goods_id` FROM `cart` WHERE `member_id`=22";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9283299;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:18;s:8:"function";s:6:"column";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}i:5;i:4821568;}i:29;a:6:{i:0;s:50:"SELECT `goods_id` FROM `cart` WHERE `member_id`=22";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.928973;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:18;s:8:"function";s:6:"column";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}i:5;i:4823392;}i:31;a:6:{i:0;s:41:"SELECT * FROM `cart` WHERE `member_id`=22";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.929523;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4826824;}i:32;a:6:{i:0;s:41:"SELECT * FROM `cart` WHERE `member_id`=22";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9299901;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4829736;}i:34;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `cart`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.930325;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4838656;}i:35;a:6:{i:0;s:29:"SHOW FULL COLUMNS FROM `cart`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9451039;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4845152;}i:37;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'cart' AND kcu.table_name = 'cart'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.945878;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4849232;}i:38;a:6:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'cart' AND kcu.table_name = 'cart'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9479711;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:20;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4850984;}i:40;a:6:{i:0;s:51:"SELECT SUM(amount) FROM `cart` WHERE `member_id`=22";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9486239;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:28;s:8:"function";s:3:"sum";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}i:5;i:4847576;}i:41;a:6:{i:0;s:51:"SELECT SUM(amount) FROM `cart` WHERE `member_id`=22";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9491241;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:28;s:8:"function";s:3:"sum";s:5:"class";s:12:"yii\db\Query";s:4:"type";s:2:"->";}}i:5;i:4849128;}i:43;a:6:{i:0;s:48:"SELECT * FROM `goods` WHERE `id` IN ('33', '37')";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9526229;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4889440;}i:44;a:6:{i:0;s:48:"SELECT * FROM `goods` WHERE `id` IN ('33', '37')";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9536819;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4895168;}i:46;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `goods`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9540479;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4903240;}i:47;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `goods`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9698081;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4921224;}i:49;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'goods' AND kcu.table_name = 'goods'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9714749;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4919544;}i:50;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'goods' AND kcu.table_name = 'goods'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9736309;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:31;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:4921288;}i:52;a:6:{i:0;s:44:"SELECT * FROM `address` WHERE `member_id`=22";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.984246;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5017912;}i:53;a:6:{i:0;s:44:"SELECT * FROM `address` WHERE `member_id`=22";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9849861;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5023704;}i:55;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `address`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221798.9853909;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5032424;}i:56;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `address`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221799.0009561;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5045936;}i:58;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'address' AND kcu.table_name = 'address'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506221799.0021861;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5046368;}i:59;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'address' AND kcu.table_name = 'address'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506221799.0044191;i:4;a:1:{i:0;a:5:{s:4:"file";s:64:"D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php";s:4:"line";i:34;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}i:5;i:5048120;}}}";s:6:"assets";s:371:"a:1:{s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:48:"D:\phpStudy\WWW\yiishop/vendor\bower/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:52:"D:\phpStudy\WWW\yiishop\frontend\web\assets\41e367a6";s:7:"baseUrl";s:16:"/assets/41e367a6";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:92:"a:3:{s:5:"start";d:1506221797.4513869;s:3:"end";d:1506221799.071666;s:6:"memory";i:5325448;}";s:4:"user";s:2145:"a:5:{s:2:"id";i:22;s:8:"identity";a:11:{s:2:"id";s:2:"22";s:8:"username";s:7:"'admin'";s:8:"auth_key";s:34:"'O4S4v3BKOykgu-E1n9pxx3gM_7osWTIf'";s:13:"password_hash";s:62:"'$2y$13$mMD/Ed6bgQjVkX6KAxHbOuIq9cfXn3WtZpu4/p9lxx6ADrlg4.q5e'";s:5:"email";s:18:"'731585657@qq.com'";s:3:"tel";s:13:"'12345678909'";s:15:"last_login_time";s:10:"1506217213";s:13:"last_login_ip";s:11:"'127.0.0.1'";s:6:"status";s:4:"null";s:10:"created_at";s:10:"1505784842";s:10:"updated_at";s:4:"null";}s:10:"attributes";a:11:{i:0;a:2:{s:9:"attribute";s:2:"id";s:5:"label";s:2:"ID";}i:1;a:2:{s:9:"attribute";s:8:"username";s:5:"label";s:6:"名称";}i:2;a:2:{s:9:"attribute";s:8:"auth_key";s:5:"label";s:6:"cookie";}i:3;a:2:{s:9:"attribute";s:13:"password_hash";s:5:"label";s:6:"密码";}i:4;a:2:{s:9:"attribute";s:5:"email";s:5:"label";s:6:"邮箱";}i:5;a:2:{s:9:"attribute";s:3:"tel";s:5:"label";s:6:"电话";}i:6;a:2:{s:9:"attribute";s:15:"last_login_time";s:5:"label";s:18:"最后登录时间";}i:7;a:2:{s:9:"attribute";s:13:"last_login_ip";s:5:"label";s:14:"最后登录IP";}i:8;a:2:{s:9:"attribute";s:6:"status";s:5:"label";s:6:"状态";}i:9;a:2:{s:9:"attribute";s:10:"created_at";s:5:"label";s:12:"创建时间";}i:10;a:2:{s:9:"attribute";s:10:"updated_at";s:5:"label";s:12:"修改时间";}}s:13:"rolesProvider";O:26:"yii\data\ArrayDataProvider":11:{s:3:"key";N;s:9:"allModels";a:0:{}s:10:"modelClass";N;s:2:"id";N;s:32:" yii\data\BaseDataProvider _sort";N;s:38:" yii\data\BaseDataProvider _pagination";N;s:32:" yii\data\BaseDataProvider _keys";N;s:34:" yii\data\BaseDataProvider _models";N;s:38:" yii\data\BaseDataProvider _totalCount";N;s:27:" yii\base\Component _events";a:0:{}s:30:" yii\base\Component _behaviors";N;}s:19:"permissionsProvider";O:26:"yii\data\ArrayDataProvider":11:{s:3:"key";N;s:9:"allModels";a:0:{}s:10:"modelClass";N;s:2:"id";s:4:"dp-1";s:32:" yii\data\BaseDataProvider _sort";N;s:38:" yii\data\BaseDataProvider _pagination";N;s:32:" yii\data\BaseDataProvider _keys";N;s:34:" yii\data\BaseDataProvider _models";N;s:38:" yii\data\BaseDataProvider _totalCount";N;s:27:" yii\base\Component _events";a:0:{}s:30:" yii\base\Component _behaviors";N;}}";s:6:"router";s:1166:"a:1:{s:8:"messages";a:6:{i:18;a:6:{i:0;a:3:{s:4:"rule";s:3:"gii";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1506221798.9046299;i:4;a:0:{}i:5;i:4626536;}i:19;a:6:{i:0;a:3:{s:4:"rule";s:12:"gii/<id:\w+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1506221798.904701;i:4;a:0:{}i:5;i:4627568;}i:20;a:6:{i:0;a:3:{s:4:"rule";s:41:"gii/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1506221798.9047611;i:4;a:0:{}i:5;i:4628648;}i:21;a:6:{i:0;a:3:{s:4:"rule";s:5:"debug";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1506221798.904825;i:4;a:0:{}i:5;i:4629688;}i:22;a:6:{i:0;a:3:{s:4:"rule";s:43:"debug/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1506221798.9048829;i:4;a:0:{}i:5;i:4630768;}i:23;a:6:{i:0;s:55:"No matching URL rules. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1506221798.9049211;i:4;a:0:{}i:5;i:4631464;}}}";s:7:"summary";a:9:{s:3:"tag";s:13:"59c71ee6d6671";s:3:"url";s:34:"http://www.yiishop.com/order/order";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:9:"127.0.0.1";s:4:"time";d:1506221797.390672;s:10:"statusCode";i:200;s:8:"sqlCount";i:14;s:9:"mailCount";i:0;}s:10:"exceptions";a:0:{}}
