@@ -108,7 +108,7 @@ class ArticleController extends Controller
             //var_dump( $model->status);exit;
             //保存
             $model->save();
-            var_dump($model->save());exit;
+           // var_dump($model->save());exit;
             return "success";
         }
         return 'fail';
