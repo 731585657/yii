@@ -97,4 +97,8 @@ class Order extends \yii\db\ActiveRecord
     }
 
 
+    public function getGoods(){
+        return $this->hasMany(OrderGoods::className(),['order_id'=>'id']);
+    }
+
 }

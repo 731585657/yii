@@ -124,7 +124,7 @@ class OrderController extends \yii\web\Controller
         $model=new Order();
         //得到用户id
         $id=\Yii::$app->user->id;
-        $models=Order::find()->where(['member_id'=>$id])->asArray()->all();
+        $models=Order::find()->where(['member_id'=>$id])->all();
         //var_dump($model->id);exit;
         //$goods=OrderGoods::find()->where(['order_id'=>])->all();
         //var_dump($model);exit;

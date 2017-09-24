@@ -493,17 +493,22 @@
 					</thead>
 					<tbody>
                     <?php foreach ($models as $model):
-                        $order_goods=\frontend\models\OrderGoods::find()->where(['order_id'=>$model['id']])->all();
                     ?>
 						<tr>
-							<td><a href=""><?=$model['id']?></a></td>
-                            <?php foreach ($order_goods as $key=>$goods):?>
-							<td><a href=""><img src="<?=-$goods->logo?>" alt="" /></a></td>
-                            <?php endforeach;?>
-							<td><?=$model['name']?></td>
-							<td>￥<?=$model['total']?> <?=$model['payment_name']?></td>
-							<td><?=date('Y-m-d H:i:s',$model['create_time'])?></td>
-							<td><?=$model['status']?></td>
+							<td><a href=""><?=$model->id?></a></td>
+
+							<td><a href="">
+                                    <?php foreach ($model->goods as $rows):
+                                    echo ' <img src='.$rows->logo.' alt="" />';
+                                        endforeach; ?>
+
+
+                                </a></td>
+
+							<td><?=$model->name?></td>
+							<td>￥<?=$model->total?> <?=$model->payment_name?></td>
+							<td><?=date('Y-m-d H:i:s',$model->create_time)?></td>
+							<td><?=$model->create_time?></td>
 							<td><a href="">查看</a> | <a href="">删除</a></td>
 						</tr>
                     <?php endforeach;?>

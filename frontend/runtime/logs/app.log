@@ -16734,3 +16734,151 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1506240986.1286
     'REQUEST_TIME' => 1506240986
 ]
+2017-09-24 09:06:02 [127.0.0.1][22][48kdgq1irqonk02frsgfpe0s97][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in D:\phpStudy\WWW\yiishop\frontend\views\order\order1.php:502
+Stack trace:
+#0 D:\phpStudy\WWW\yiishop\frontend\views\order\order1.php(502): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'D:\\phpStudy\\WWW...', 502, Array)
+#1 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\View.php(330): require('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\OrderController))
+#4 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\Controller.php(411): yii\base\View->render('order1', Array, Object(frontend\controllers\OrderController))
+#5 D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php(131): yii\base\Controller->renderPartial('order1', Array)
+#6 [internal function]: frontend\controllers\OrderController->actionList()
+#7 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('list', Array)
+#10 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('order/list', Array)
+#11 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpStudy\WWW\yiishop\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2017-09-24 09:06:01 [127.0.0.1][22][48kdgq1irqonk02frsgfpe0s97][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a5b02bb835ba36b19137a6224cbfc75f7c96033f7763dcca3f76610663b5beb0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"±£¶b%ä;¨³@ˆ\0è}½)kñXdxÂöÒõOL\";}'
+    'advanced-frontend' => '48kdgq1irqonk02frsgfpe0s97'
+    '_identity-frontend' => '78fd93428d444a3e492e3740436001d4c833d093959e159441119ccfeceffedea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[22,\"O4S4v3BKOykgu-E1n9pxx3gM_7osWTIf\",172800]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'oed'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\phpStudy\\php\\php-5.6.27-nts;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\server\\mysql\\bin;D:\\APP\\svn\\bin;D:\\APP\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\Git\\cmd;C:\\Users\\asus\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\asus\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2060'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/order/list'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/order/list'
+    'REMOTE_PORT' => '50827'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/yiishop/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/yiishop/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/yiishop/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yiishop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-frontend=a5b02bb835ba36b19137a6224cbfc75f7c96033f7763dcca3f76610663b5beb0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%B1%A3%B6b%15%25%E4%3B%04%11%A8%B3%40%88%7F%00%E8%7D%BD%29k%F1Xdx%C2%F6%D2%F5%1DOL%22%3B%7D; advanced-frontend=48kdgq1irqonk02frsgfpe0s97; _identity-frontend=78fd93428d444a3e492e3740436001d4c833d093959e159441119ccfeceffedea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B22%2C%22O4S4v3BKOykgu-E1n9pxx3gM_7osWTIf%22%2C172800%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yiishop.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1506243961.2228
+    'REQUEST_TIME' => 1506243961
+]
+2017-09-24 09:06:24 [127.0.0.1][22][48kdgq1irqonk02frsgfpe0s97][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: goods' in D:\phpStudy\WWW\yiishop\frontend\views\order\order1.php:502
+Stack trace:
+#0 D:\phpStudy\WWW\yiishop\frontend\views\order\order1.php(502): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\phpStudy\\WWW...', 502, Array)
+#1 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\View.php(330): require('D:\\phpStudy\\WWW...')
+#2 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\phpStudy\\WWW...', Array)
+#3 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\phpStudy\\WWW...', Array, Object(frontend\controllers\OrderController))
+#4 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\Controller.php(411): yii\base\View->render('order1', Array, Object(frontend\controllers\OrderController))
+#5 D:\phpStudy\WWW\yiishop\frontend\controllers\OrderController.php(131): yii\base\Controller->renderPartial('order1', Array)
+#6 [internal function]: frontend\controllers\OrderController->actionList()
+#7 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('list', Array)
+#10 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('order/list', Array)
+#11 D:\phpStudy\WWW\yiishop\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\phpStudy\WWW\yiishop\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2017-09-24 09:06:22 [127.0.0.1][22][48kdgq1irqonk02frsgfpe0s97][info][application] $_COOKIE = [
+    '_csrf-frontend' => 'a5b02bb835ba36b19137a6224cbfc75f7c96033f7763dcca3f76610663b5beb0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"±£¶b%ä;¨³@ˆ\0è}½)kñXdxÂöÒõOL\";}'
+    'advanced-frontend' => '48kdgq1irqonk02frsgfpe0s97'
+    '_identity-frontend' => '78fd93428d444a3e492e3740436001d4c833d093959e159441119ccfeceffedea:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[22,\"O4S4v3BKOykgu-E1n9pxx3gM_7osWTIf\",172800]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'oed'
+    '__captcha/site/captchacount' => 1
+    '__id' => 22
+]
+
+$_SERVER = [
+    'PATH' => 'D:\\phpStudy\\php\\php-5.6.27-nts;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\server\\mysql\\bin;D:\\APP\\svn\\bin;D:\\APP\\TortoiseSVN\\bin;D:\\phpStudy\\php\\php-5.6.27-nts;C:\\ProgramData\\ComposerSetup\\bin;D:\\Program Files\\Git\\cmd;C:\\Users\\asus\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\asus\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'D:/phpStudy/php/php-5.6.27-nts/'
+    '_FCGI_SHUTDOWN_EVENT_' => '2060'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/order/list'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REDIRECT_URL' => '/order/list'
+    'REMOTE_PORT' => '50838'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/yiishop/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW/yiishop/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW/yiishop/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.yiishop.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_COOKIE' => '_csrf-frontend=a5b02bb835ba36b19137a6224cbfc75f7c96033f7763dcca3f76610663b5beb0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%B1%A3%B6b%15%25%E4%3B%04%11%A8%B3%40%88%7F%00%E8%7D%BD%29k%F1Xdx%C2%F6%D2%F5%1DOL%22%3B%7D; advanced-frontend=48kdgq1irqonk02frsgfpe0s97; _identity-frontend=78fd93428d444a3e492e3740436001d4c833d093959e159441119ccfeceffedea%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B22%2C%22O4S4v3BKOykgu-E1n9pxx3gM_7osWTIf%22%2C172800%5D%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'www.yiishop.com'
+    'REDIRECT_STATUS' => '200'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1506243982.6457
+    'REQUEST_TIME' => 1506243982
+]
