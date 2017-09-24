@@ -114,9 +114,23 @@ class OrderController extends \yii\web\Controller
         return $this->renderPartial('addorder',['goods'=>$goods,'address'=>$address,'num'=>$num,'sum'=>$sum]);
     }
 
+        //成功下单页面
     public  function actionFlow(){
         return $this->renderPartial('flow');
     }
+
+    //订单列表
+    public function actionList(){
+        $model=new Order();
+        //得到用户id
+        $id=\Yii::$app->user->id;
+        $models=Order::find()->where(['member_id'=>$id])->asArray()->all();
+        //var_dump($model->id);exit;
+        //$goods=OrderGoods::find()->where(['order_id'=>])->all();
+        //var_dump($model);exit;
+        return $this->renderPartial('order1',['models'=>$models]);
+    }
+
 
     public function actionIndex(){
         $model=new Order();
